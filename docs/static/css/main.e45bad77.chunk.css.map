@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/components/GifGridItem.css"],"names":[],"mappings":"AAAA,IACE,eAAgB,CAChB,UAAW,CACX,YAAa,CACb,gBACF","file":"main.e45bad77.chunk.css","sourcesContent":["img {\n  overflow: hidden;\n  width: 100%;\n  height: 150px;\n  object-fit: cover;\n}"]}
