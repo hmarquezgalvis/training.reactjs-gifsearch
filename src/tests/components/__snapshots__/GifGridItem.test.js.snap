@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for <GifGridItem /> must be show the right state of component 1`] = `
+<Fragment>
+  <div
+    className="col-3"
+  >
+    <img
+      alt="One Punch Man GIF"
+      className="border border-white animate_animated animate__bounceIn"
+      src="https://media0.giphy.com/media/VXJWhaO7afRe/giphy.gif?cid=46e040a5354ei2def6320v0iehtkqw7wxly2lkk09swh5fpu&rid=giphy.gif&ct=g"
+    />
+  </div>
+</Fragment>
+`;
