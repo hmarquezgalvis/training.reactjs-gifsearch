@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests for <GifGrid /> must be show items when load images using useFetchGifList() 1`] = `
+<div
+  className="card mb-3"
+>
+  <div
+    className="card-body"
+  >
+    <h5
+      className="card-title"
+    >
+      One Punch
+    </h5>
+    <div
+      className="d-flex align-content-stretch flex-wrap"
+    >
+      <GifGridItem
+        id="dyjrpqaUVqCELGuQVr"
+        key="dyjrpqaUVqCELGuQVr"
+        title="Kimetsu No Yaiba Demon Slayer GIF by Crunchyroll"
+        url="https://media3.giphy.com/media/dyjrpqaUVqCELGuQVr/giphy-downsized-medium.gif?cid=46e040a5twrrjqmg74ppo6cc0cu8ijv6466ipnjffiezj0ca&rid=giphy-downsized-medium.gif&ct=g"
+      />
+      <GifGridItem
+        id="dyjrpqaUVqCELGuQVr"
+        key="dyjrpqaUVqCELGuQVr"
+        title="Kimetsu No Yaiba Demon Slayer GIF by Crunchyroll"
+        url="https://media3.giphy.com/media/dyjrpqaUVqCELGuQVr/giphy-downsized-medium.gif?cid=46e040a5twrrjqmg74ppo6cc0cu8ijv6466ipnjffiezj0ca&rid=giphy-downsized-medium.gif&ct=g"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`tests for <GifGrid /> must be the right html generated 1`] = `
+<div
+  className="card mb-3"
+>
+  <div
+    className="card-body"
+  >
+    <h5
+      className="card-title"
+    >
+      One Punch
+      <div
+        className="spinner-grow spinner-grow-sm ms-1"
+        role="status"
+      >
+        <span
+          className="visually-hidden"
+        >
+          Loading...
+        </span>
+      </div>
+    </h5>
+    <div
+      className="d-flex align-content-stretch flex-wrap"
+    />
+  </div>
+</div>
+`;
