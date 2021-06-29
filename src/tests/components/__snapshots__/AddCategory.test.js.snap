@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests for <AddCategory /> must be the right html generated 1`] = `
+<form
+  className="mb-3"
+  onSubmit={[Function]}
+>
+  <p />
+  <label
+    className="form-label"
+  >
+    Category:
+  </label>
+  <input
+    className="form-control"
+    onChange={[Function]}
+    type="text"
+    value=""
+  />
+</form>
+`;
